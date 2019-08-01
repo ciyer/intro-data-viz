@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="350"
+   height="130"
+   viewBox="0 0 350 130"
+   style="font-family: Avenir Next; font-weight: 500; font-size: 72pt;"
+   id="svg90"
+   sodipodi:docname="illposed-logo.svg"
+   inkscape:version="0.92.2 5c3e80d, 2017-08-06">
+  <metadata
+     id="metadata96">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs94" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1436"
+     inkscape:window-height="739"
+     id="namedview92"
+     showgrid="false"
+     inkscape:zoom="4.2426407"
+     inkscape:cx="107.17538"
+     inkscape:cy="58.841556"
+     inkscape:window-x="13"
+     inkscape:window-y="176"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="g72" />
+  <g
+     transform="translate(20, 100)"
+     id="g88">
+    <g
+       id="g60">
+      <text
+         x="0"
+         y="0"
+         id="text56"
+         fill="#262626">Ill</text>
+      <text
+         x="75"
+         y="0"
+         style="font-size: 60pt;"
+         id="text58"
+         fill="#5A5A5A">posed</text>
+    </g>
+    <g
+       id="g66">
+      <line
+         x1="0"
+         x2="306"
+         y1="1"
+         y2="1"
+         id="line62"
+         stroke-width="3"
+         stroke="#B8B8B8" />
+      <line
+         x1="0"
+         x2="0"
+         y1="1"
+         y2="-80"
+         id="line64"
+         stroke-width="3"
+         stroke="#B8B8B8" />
+    </g>
+    <g
+       id="g72">
+      <line
+         x1="5"
+         x2="306"
+         y1="-28"
+         y2="-28"
+         id="line68"
+         stroke-width="3"
+         stroke="#FFFFFF"
+         style="stroke:#eeeeee;stroke-opacity:1" />
+      <line
+         x1="5"
+         x2="306"
+         y1="-56"
+         y2="-56"
+         id="line70"
+         stroke-width="3"
+         stroke="#FFFFFF"
+         style="stroke:#eeeeee;stroke-opacity:1" />
+    </g>
+    <g
+       id="g86">
+      <text
+         x="-10"
+         y="15"
+         style="font-size: 12pt; font-weight: 400;"
+         id="text74">0</text>
+      <text
+         x="-10"
+         y="-56"
+         dy="6"
+         style="font-size: 12pt; font-weight: 400;"
+         id="text76">1</text>
+      <text
+         x="90"
+         y="15"
+         style="font-size: 12pt; font-weight: 400;"
+         id="text78">1</text>
+      <text
+         x="90"
+         y="15"
+         style="font-size: 12pt; font-weight: 400;"
+         id="text80">1</text>
+      <text
+         x="180"
+         y="15"
+         style="font-size: 12pt; font-weight: 400;"
+         id="text82">2</text>
+      <text
+         x="270"
+         y="15"
+         style="font-size: 12pt; font-weight: 400;"
+         id="text84">3</text>
+    </g>
+  </g>
+</svg>
