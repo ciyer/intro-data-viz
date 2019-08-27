@@ -4,5 +4,5 @@ A very, very brief introduction to data visualization
 
 | Section                   | Content
 | ------------------------- | -------------------------------------------------------   |
-| [Part I](part1.ipynb)     | Mapping data, working with color, using transformations   |
-| Part II (coming)          | Multidimensional data, layering, context, small multiples |
+| [Part I](part1/)          | Mapping data, working with color, using transformations   |
+| Part II (in preparation)  | Multidimensional data, layering, context, small multiples |
