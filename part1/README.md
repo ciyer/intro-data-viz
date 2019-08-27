@@ -30,7 +30,7 @@ There are many valid answers to this question. One of them is the above. It is n
 
 From FlowingData https://flowingdata.com/2010/09/30/advertised-vs-actual-waistline/
 
-Consider these two visualizations of the same data set. They are both good, but they look very different because they pursue different goals. 
+Consider these two visualizations of the same data set. They are both good, but they look very different because they pursue different goals.
 
 The one on the right is a visualization of the kind we will be talking about: one designed to enable quantitative reasoning. The one on the left has a different goal: its goal is to be entertaining. This is of course fine, and this visualization does a good job of realizing this goal, but it is not the kind of visualization we will be talking about.
 
@@ -50,24 +50,28 @@ This introduction is made up of several sections. We will first survey some tool
 # References
 
 <div style="display: flex; flex-direction: row;  justify-content: space-around">
-    
+
 <div>
 
-## Edward Tufte
-
-- [Visual Display of Quantitative Information](https://www.amazon.com/Visual-Display-Quantitative-Information/dp/0961392142/)
-- [Envisioning Information](https://www.amazon.com/Envisioning-Information-Edward-R-Tufte/dp/0961392118/)
-- [Visual Explanations](https://www.amazon.com/Visual-Explanations-Quantities-Evidence-Narrative/dp/0961392126/)
+<h2>Edward Tufte</h2>
+<ul>
+<li><a href="https://www.amazon.com/Visual-Display-Quantitative-Information/dp/0961392142/">Visual Display of Quantitative Information</a></li>
+<li><a href="https://www.amazon.com/Envisioning-Information-Edward-R-Tufte/dp/0961392118/">Envisioning Information</a></li>
+<li><a href="https://www.amazon.com/Visual-Explanations-Quantities-Evidence-Narrative/dp/0961392126/">Visual Explanations</a></li>
+</ul>
 
 </div>
 
 <div>
-    
-## Online
-- [Maneesh Agrawala’s Visualization Course](https://magrawala.github.io/cs448b-fa17/)
-- [Jeffrey Heer’s Visualization Course](https://courses.cs.washington.edu/courses/cse442/17au/)
-- [Jock Mackinlay’s Designing Great Visualizations](https://www.tableau.com/sites/default/files/media/designing-great-visualizations.pdf)
 
+<h2>Online</h2>
+<ul>
+<li><a href="https://magrawala.github.io/cs448b-fa17/">Maneesh Agrawala’s Visualization Course</a></li>
+<li><a href="https://courses.cs.washington.edu/courses/cse442/17au/">Jeffrey Heer’s Visualization Course</a></li>
+<li><a href="https://www.tableau.com/sites/default/files/media/designing-great-visualizations.pdf">Jock Mackinlay’s Designing Great Visualizations</a></li>
+</ul>
+
+</div>
 </div>
 
 
@@ -94,33 +98,32 @@ Tableau, Spotfire, and Power BI are all GUI-driven tools specifically for data v
 <div style="display: flex; flex-direction: row;  justify-content: space-around">
 
 <div style="width: 300px">
-
-## R
-* ggplot
-
+<h2>R</h2>
+<ul>
+<li>ggplot</li>
+</ul>
 </div>
 
 <div style="width: 430px">
-    
-## Python
-* matplotlib
-* seaborn
-* bokeh
-* altair
-* HoloViews
-
+<h2>Python</h2>
+<ul>
+<li>matplotlib</li>
+<li>seaborn</li>
+<li>bokeh</li>
+<li>altair</li>
+<li>HoloViews</li>
+</ul>
 </div>
 
 <div style="width: 430px">
-
-## JavaScript
-* **[Vega](https://vega.github.io/vega/) / [Vega-Lite](https://vega.github.io/vega-lite/)**
-* [D3](https://d3js.org)
-* [C3](https://c3js.org)
-* [plot.ly](https://plot.ly)
-
+<h2>JavaScript</h2>
+<ul>
+<li><strong><a href="https://vega.github.io/vega/">Vega</a> / <a href="https://vega.github.io/vega-lite/">Vega-Lite</a></strong></li>
+<li><a href="https://d3js.org">D3</a></li>
+<li><a href="https://c3js.org">C3</a></li>
+<li><a href="https://plot.ly">plot.ly</a></li>
+</ul>
 </div>
-
 </div>
 
 Programming languages also provide frameworks for data visualization, including, of course, widely used languages for data analysis like R and Python. The landscape in R is cleaner, in Python there has been much recent activity to develop modern, web-friendly alternatives to the classic matplotlib.
