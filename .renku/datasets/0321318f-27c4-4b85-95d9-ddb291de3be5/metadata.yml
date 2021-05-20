@@ -1,8 +1,8 @@
-- '@id': https://localhost/urls/%2F%2Frenkulab.io%2Fdatasets%2F0321318f-27c4-4b85-95d9-ddb291de3be5
+- '@id': https://localhost/urls/%2F%2Frenkulab.io%2Fdatasets%2F470fd063-5043-4f72-a57d-5c83e958fbe3
   '@type':
   - http://schema.org/URL
   http://schema.org/url:
-  - '@id': https://renkulab.io/datasets/0321318f-27c4-4b85-95d9-ddb291de3be5
+  - '@id': https://renkulab.io/datasets/470fd063-5043-4f72-a57d-5c83e958fbe3
 - '@id': https://renkulab.io/blob/d903ed96eba41ddbf48516e16ed15b4d08c51d39/data/oecd/CPI-2021.csv
   '@type':
   - http://purl.org/wf4ever/wfprov#Artifact
@@ -45,7 +45,7 @@
   - '@value': false
   https://swissdatasciencecenter.github.io/renku-ontology#source:
   - '@value': data/oecd/UE-2021.csv
-- '@id': https://renkulab.io/datasets/470fd063-5043-4f72-a57d-5c83e958fbe3
+- '@id': https://renkulab.io/datasets/2f548f47-39b5-4fb2-b526-c50284146166
   '@type':
   - http://purl.org/wf4ever/wfprov#Artifact
   - http://schema.org/Dataset
@@ -55,12 +55,14 @@
   http://schema.org/creator:
   - '@id': mailto:cramakri@ethz.ch
   http://schema.org/dateCreated:
-  - '@value': '2021-05-20T13:13:15.845929+00:00'
+  - '@value': '2021-05-20T13:15:48.346570+00:00'
+  http://schema.org/description:
+  - '@value': Data downloaded from data.oecd.org in Apr 2021
   http://schema.org/hasPart:
   - '@id': https://renkulab.io/blob/d903ed96eba41ddbf48516e16ed15b4d08c51d39/data/oecd/CPI-2021.csv
   - '@id': https://renkulab.io/blob/d903ed96eba41ddbf48516e16ed15b4d08c51d39/data/oecd/UE-2021.csv
   http://schema.org/identifier:
-  - '@value': 470fd063-5043-4f72-a57d-5c83e958fbe3
+  - '@value': 2f548f47-39b5-4fb2-b526-c50284146166
   http://schema.org/isPartOf:
   - '@id': https://renkulab.io/projects/cramakri/intro-data-viz
   http://schema.org/keywords: []
@@ -68,13 +70,13 @@
   - '@value': oecd
   http://schema.org/subjectOf: []
   http://schema.org/url:
-  - '@value': https://renkulab.io/datasets/470fd063-5043-4f72-a57d-5c83e958fbe3
+  - '@value': https://renkulab.io/datasets/2f548f47-39b5-4fb2-b526-c50284146166
   http://www.w3.org/2000/01/rdf-schema#label:
-  - '@value': 470fd063-5043-4f72-a57d-5c83e958fbe3
+  - '@value': 2f548f47-39b5-4fb2-b526-c50284146166
   http://www.w3.org/ns/prov#atLocation:
   - '@value': .renku/datasets/0321318f-27c4-4b85-95d9-ddb291de3be5
   http://www.w3.org/ns/prov#wasDerivedFrom:
-  - '@id': https://localhost/urls/%2F%2Frenkulab.io%2Fdatasets%2F0321318f-27c4-4b85-95d9-ddb291de3be5
+  - '@id': https://localhost/urls/%2F%2Frenkulab.io%2Fdatasets%2F470fd063-5043-4f72-a57d-5c83e958fbe3
 - '@id': https://renkulab.io/projects/cramakri/intro-data-viz
   '@type':
   - http://schema.org/Project
