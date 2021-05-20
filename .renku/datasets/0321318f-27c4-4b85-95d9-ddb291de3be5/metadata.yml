@@ -1,4 +1,51 @@
-- '@id': https://renkulab.io/datasets/0321318f-27c4-4b85-95d9-ddb291de3be5
+- '@id': https://localhost/urls/%2F%2Frenkulab.io%2Fdatasets%2F0321318f-27c4-4b85-95d9-ddb291de3be5
+  '@type':
+  - http://schema.org/URL
+  http://schema.org/url:
+  - '@id': https://renkulab.io/datasets/0321318f-27c4-4b85-95d9-ddb291de3be5
+- '@id': https://renkulab.io/blob/d903ed96eba41ddbf48516e16ed15b4d08c51d39/data/oecd/CPI-2021.csv
+  '@type':
+  - http://purl.org/wf4ever/wfprov#Artifact
+  - http://schema.org/DigitalDocument
+  - http://www.w3.org/ns/prov#Entity
+  http://schema.org/dateCreated:
+  - '@value': '2021-05-20T13:13:15.813633+00:00'
+  http://schema.org/isPartOf:
+  - '@id': https://renkulab.io/projects/cramakri/intro-data-viz
+  http://schema.org/name:
+  - '@value': CPI-2021.csv
+  http://schema.org/url:
+  - '@value': https://renkulab.io/projects/cramakri/intro-data-viz/files/blob/data/oecd/CPI-2021.csv
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': data/oecd/CPI-2021.csv@d903ed96eba41ddbf48516e16ed15b4d08c51d39
+  http://www.w3.org/ns/prov#atLocation:
+  - '@value': data/oecd/CPI-2021.csv
+  https://swissdatasciencecenter.github.io/renku-ontology#external:
+  - '@value': false
+  https://swissdatasciencecenter.github.io/renku-ontology#source:
+  - '@value': data/oecd/CPI-2021.csv
+- '@id': https://renkulab.io/blob/d903ed96eba41ddbf48516e16ed15b4d08c51d39/data/oecd/UE-2021.csv
+  '@type':
+  - http://purl.org/wf4ever/wfprov#Artifact
+  - http://schema.org/DigitalDocument
+  - http://www.w3.org/ns/prov#Entity
+  http://schema.org/dateCreated:
+  - '@value': '2021-05-20T13:13:15.828350+00:00'
+  http://schema.org/isPartOf:
+  - '@id': https://renkulab.io/projects/cramakri/intro-data-viz
+  http://schema.org/name:
+  - '@value': UE-2021.csv
+  http://schema.org/url:
+  - '@value': https://renkulab.io/projects/cramakri/intro-data-viz/files/blob/data/oecd/UE-2021.csv
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': data/oecd/UE-2021.csv@d903ed96eba41ddbf48516e16ed15b4d08c51d39
+  http://www.w3.org/ns/prov#atLocation:
+  - '@value': data/oecd/UE-2021.csv
+  https://swissdatasciencecenter.github.io/renku-ontology#external:
+  - '@value': false
+  https://swissdatasciencecenter.github.io/renku-ontology#source:
+  - '@value': data/oecd/UE-2021.csv
+- '@id': https://renkulab.io/datasets/470fd063-5043-4f72-a57d-5c83e958fbe3
   '@type':
   - http://purl.org/wf4ever/wfprov#Artifact
   - http://schema.org/Dataset
@@ -8,10 +55,12 @@
   http://schema.org/creator:
   - '@id': mailto:cramakri@ethz.ch
   http://schema.org/dateCreated:
-  - '@value': '2021-05-20T13:11:57.944425+00:00'
-  http://schema.org/hasPart: []
+  - '@value': '2021-05-20T13:13:15.845929+00:00'
+  http://schema.org/hasPart:
+  - '@id': https://renkulab.io/blob/d903ed96eba41ddbf48516e16ed15b4d08c51d39/data/oecd/CPI-2021.csv
+  - '@id': https://renkulab.io/blob/d903ed96eba41ddbf48516e16ed15b4d08c51d39/data/oecd/UE-2021.csv
   http://schema.org/identifier:
-  - '@value': 0321318f-27c4-4b85-95d9-ddb291de3be5
+  - '@value': 470fd063-5043-4f72-a57d-5c83e958fbe3
   http://schema.org/isPartOf:
   - '@id': https://renkulab.io/projects/cramakri/intro-data-viz
   http://schema.org/keywords: []
@@ -19,17 +68,19 @@
   - '@value': oecd
   http://schema.org/subjectOf: []
   http://schema.org/url:
-  - '@value': https://renkulab.io/datasets/0321318f-27c4-4b85-95d9-ddb291de3be5
+  - '@value': https://renkulab.io/datasets/470fd063-5043-4f72-a57d-5c83e958fbe3
   http://www.w3.org/2000/01/rdf-schema#label:
-  - '@value': 0321318f-27c4-4b85-95d9-ddb291de3be5
+  - '@value': 470fd063-5043-4f72-a57d-5c83e958fbe3
   http://www.w3.org/ns/prov#atLocation:
   - '@value': .renku/datasets/0321318f-27c4-4b85-95d9-ddb291de3be5
+  http://www.w3.org/ns/prov#wasDerivedFrom:
+  - '@id': https://localhost/urls/%2F%2Frenkulab.io%2Fdatasets%2F0321318f-27c4-4b85-95d9-ddb291de3be5
 - '@id': https://renkulab.io/projects/cramakri/intro-data-viz
   '@type':
   - http://schema.org/Project
   - http://www.w3.org/ns/prov#Location
   http://schema.org/agent:
-  - '@value': 0.15.0
+  - '@value': 0.12.2
   http://schema.org/creator:
   - '@id': mailto:cramakri@ethz.ch
   http://schema.org/dateCreated:
