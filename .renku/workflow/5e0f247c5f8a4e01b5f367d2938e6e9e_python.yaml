@@ -1,0 +1,217 @@
+- '@id': https://github.com/swissdatasciencecenter/renku-python/tree/v0.12.2
+  '@type':
+  - http://purl.org/wf4ever/wfprov#WorkflowEngine
+  - http://www.w3.org/ns/prov#SoftwareAgent
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': renku 0.12.2
+- '@id': https://localhost/activities/commit/593a48580716cef4d1ada7d3ca500ec05b5d0acb
+  '@type':
+  - http://purl.org/wf4ever/wfprov#ProcessRun
+  - http://www.w3.org/ns/prov#Activity
+  http://schema.org/isPartOf:
+  - '@id': https://renkulab.io/projects/cramakri/intro-data-viz
+  http://www.w3.org/2000/01/rdf-schema#comment:
+  - '@value': 'renku run: committing 1 newly added files'
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': .renku/workflow/5e0f247c5f8a4e01b5f367d2938e6e9e_python.yaml@593a48580716cef4d1ada7d3ca500ec05b5d0acb
+  http://www.w3.org/ns/prov#atLocation:
+  - '@value': .renku/workflow/5e0f247c5f8a4e01b5f367d2938e6e9e_python.yaml
+  http://www.w3.org/ns/prov#endedAtTime:
+  - '@type': http://www.w3.org/2001/XMLSchema#dateTime
+    '@value': '2021-05-20T13:41:30+00:00'
+  http://www.w3.org/ns/prov#influenced: []
+  http://www.w3.org/ns/prov#qualifiedAssociation:
+  - '@id': https://localhost/activities/commit/593a48580716cef4d1ada7d3ca500ec05b5d0acb/association
+  http://www.w3.org/ns/prov#qualifiedUsage:
+  - '@id': https://localhost/activities/commit/593a48580716cef4d1ada7d3ca500ec05b5d0acb/inputs/1
+  - '@id': https://localhost/activities/commit/593a48580716cef4d1ada7d3ca500ec05b5d0acb/inputs/2
+  - '@id': https://localhost/activities/commit/593a48580716cef4d1ada7d3ca500ec05b5d0acb/inputs/3
+  http://www.w3.org/ns/prov#startedAtTime:
+  - '@type': http://www.w3.org/2001/XMLSchema#dateTime
+    '@value': '2021-05-20T13:41:30+00:00'
+  http://www.w3.org/ns/prov#wasAssociatedWith:
+  - '@id': mailto:cramakri@ethz.ch
+  - '@id': https://github.com/swissdatasciencecenter/renku-python/tree/v0.12.2
+  http://www.w3.org/ns/prov#wasInformedBy:
+  - '@id': https://localhost/activities/commit/cc189119994296ca5d155284dcc5295a8b136d7b
+  https://swissdatasciencecenter.github.io/renku-ontology#hasRunParameter: []
+- '@id': https://localhost/activities/commit/593a48580716cef4d1ada7d3ca500ec05b5d0acb/association
+  '@type':
+  - http://www.w3.org/ns/prov#Association
+  http://www.w3.org/ns/prov#agent:
+  - '@id': https://github.com/swissdatasciencecenter/renku-python/tree/v0.12.2
+  http://www.w3.org/ns/prov#hadPlan:
+  - '@id': https://renkulab.io/runs/bdcb7f21-aee1-4abf-b10a-0b27dcd12927
+- '@id': https://localhost/activities/commit/593a48580716cef4d1ada7d3ca500ec05b5d0acb/inputs/1
+  '@type':
+  - http://www.w3.org/ns/prov#Usage
+  http://www.w3.org/ns/prov#entity:
+  - '@id': https://renkulab.io/blob/cc189119994296ca5d155284dcc5295a8b136d7b/src/python/phillips_data.py
+  http://www.w3.org/ns/prov#hadRole:
+  - '@value': inputs/1
+- '@id': https://localhost/activities/commit/593a48580716cef4d1ada7d3ca500ec05b5d0acb/inputs/2
+  '@type':
+  - http://www.w3.org/ns/prov#Usage
+  http://www.w3.org/ns/prov#entity:
+  - '@id': https://renkulab.io/blob/d903ed96eba41ddbf48516e16ed15b4d08c51d39/data/oecd/CPI-2021.csv
+  http://www.w3.org/ns/prov#hadRole:
+  - '@value': inputs/2
+- '@id': https://localhost/activities/commit/593a48580716cef4d1ada7d3ca500ec05b5d0acb/inputs/3
+  '@type':
+  - http://www.w3.org/ns/prov#Usage
+  http://www.w3.org/ns/prov#entity:
+  - '@id': https://renkulab.io/blob/d903ed96eba41ddbf48516e16ed15b4d08c51d39/data/oecd/UE-2021.csv
+  http://www.w3.org/ns/prov#hadRole:
+  - '@value': inputs/3
+- '@id': https://localhost/activities/commit/593a48580716cef4d1ada7d3ca500ec05b5d0acb/outputs/abf80a058dbf416292a9248be61d673e
+  '@type':
+  - http://www.w3.org/ns/prov#Generation
+  http://www.w3.org/ns/prov#activity:
+  - '@id': https://localhost/activities/commit/593a48580716cef4d1ada7d3ca500ec05b5d0acb
+  http://www.w3.org/ns/prov#hadRole:
+  - '@value': outputs/abf80a058dbf416292a9248be61d673e
+- '@id': https://renkulab.io/blob/593a48580716cef4d1ada7d3ca500ec05b5d0acb/data/phillips-ue-cpi.csv
+  '@type':
+  - http://purl.org/wf4ever/wfprov#Artifact
+  - http://www.w3.org/ns/prov#Entity
+  http://schema.org/isPartOf:
+  - '@id': https://renkulab.io/projects/cramakri/intro-data-viz
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': data/phillips-ue-cpi.csv@593a48580716cef4d1ada7d3ca500ec05b5d0acb
+  http://www.w3.org/ns/prov#atLocation:
+  - '@value': data/phillips-ue-cpi.csv
+  http://www.w3.org/ns/prov#qualifiedGeneration:
+  - '@id': https://localhost/activities/commit/593a48580716cef4d1ada7d3ca500ec05b5d0acb/outputs/abf80a058dbf416292a9248be61d673e
+- '@id': https://renkulab.io/blob/cc189119994296ca5d155284dcc5295a8b136d7b/src/python/phillips_data.py
+  '@type':
+  - http://purl.org/wf4ever/wfprov#Artifact
+  - http://www.w3.org/ns/prov#Entity
+  http://schema.org/isPartOf:
+  - '@id': https://renkulab.io/projects/cramakri/intro-data-viz
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': src/python/phillips_data.py@cc189119994296ca5d155284dcc5295a8b136d7b
+  http://www.w3.org/ns/prov#atLocation:
+  - '@value': src/python/phillips_data.py
+- '@id': https://renkulab.io/blob/d903ed96eba41ddbf48516e16ed15b4d08c51d39/data/oecd/CPI-2021.csv
+  '@type':
+  - http://purl.org/wf4ever/wfprov#Artifact
+  - http://www.w3.org/ns/prov#Entity
+  http://schema.org/isPartOf:
+  - '@id': https://renkulab.io/projects/cramakri/intro-data-viz
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': data/oecd/CPI-2021.csv@d903ed96eba41ddbf48516e16ed15b4d08c51d39
+  http://www.w3.org/ns/prov#atLocation:
+  - '@value': data/oecd/CPI-2021.csv
+- '@id': https://renkulab.io/blob/d903ed96eba41ddbf48516e16ed15b4d08c51d39/data/oecd/UE-2021.csv
+  '@type':
+  - http://purl.org/wf4ever/wfprov#Artifact
+  - http://www.w3.org/ns/prov#Entity
+  http://schema.org/isPartOf:
+  - '@id': https://renkulab.io/projects/cramakri/intro-data-viz
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': data/oecd/UE-2021.csv@d903ed96eba41ddbf48516e16ed15b4d08c51d39
+  http://www.w3.org/ns/prov#atLocation:
+  - '@value': data/oecd/UE-2021.csv
+- '@id': https://renkulab.io/projects/cramakri/intro-data-viz
+  '@type':
+  - http://schema.org/Project
+  - http://www.w3.org/ns/prov#Location
+  http://schema.org/agent:
+  - '@value': 0.12.2
+  http://schema.org/creator:
+  - '@id': mailto:cramakri@ethz.ch
+  http://schema.org/dateCreated:
+  - '@value': '2021-05-19T16:52:53.248396+00:00'
+  http://schema.org/name:
+  - '@value': intro-data-viz
+  http://schema.org/schemaVersion:
+  - '@value': '8'
+  https://swissdatasciencecenter.github.io/renku-ontology#automatedTemplateUpdate:
+  - '@value': false
+  https://swissdatasciencecenter.github.io/renku-ontology#immutableTemplateFiles: []
+  https://swissdatasciencecenter.github.io/renku-ontology#templateId:
+  - '@value': python-minimal
+  https://swissdatasciencecenter.github.io/renku-ontology#templateMetadata:
+  - '@value': '{"description": "A very b, very brief introduction to data visualization.",
+      "__template_source__": "renku", "__template_ref__": "master", "__template_id__":
+      "python-minimal", "__namespace__": "", "__sanitized_project_name__": "", "__repository__":
+      "", "__project_slug__": "", "name": "intro-data-viz"}'
+  https://swissdatasciencecenter.github.io/renku-ontology#templateReference:
+  - '@value': master
+  https://swissdatasciencecenter.github.io/renku-ontology#templateSource:
+  - '@value': renku
+  https://swissdatasciencecenter.github.io/renku-ontology#templateVersion:
+  - '@value': 0.15.0
+- '@id': https://renkulab.io/runs/bdcb7f21-aee1-4abf-b10a-0b27dcd12927
+  '@type':
+  - http://www.w3.org/ns/prov#Entity
+  - http://www.w3.org/ns/prov#Plan
+  - https://swissdatasciencecenter.github.io/renku-ontology#Run
+  http://schema.org/isPartOf:
+  - '@id': https://renkulab.io/projects/cramakri/intro-data-viz
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': .renku/workflow/5e0f247c5f8a4e01b5f367d2938e6e9e_python.yaml@593a48580716cef4d1ada7d3ca500ec05b5d0acb
+  http://www.w3.org/ns/prov#atLocation:
+  - '@value': .renku/workflow/5e0f247c5f8a4e01b5f367d2938e6e9e_python.yaml
+  https://swissdatasciencecenter.github.io/renku-ontology#command:
+  - '@value': python
+  https://swissdatasciencecenter.github.io/renku-ontology#hasArguments: []
+  https://swissdatasciencecenter.github.io/renku-ontology#hasInputs:
+  - '@id': https://renkulab.io/runs/bdcb7f21-aee1-4abf-b10a-0b27dcd12927/inputs/1
+  - '@id': https://renkulab.io/runs/bdcb7f21-aee1-4abf-b10a-0b27dcd12927/inputs/2
+  - '@id': https://renkulab.io/runs/bdcb7f21-aee1-4abf-b10a-0b27dcd12927/inputs/3
+  https://swissdatasciencecenter.github.io/renku-ontology#hasOutputs:
+  - '@id': https://renkulab.io/runs/bdcb7f21-aee1-4abf-b10a-0b27dcd12927/outputs/abf80a058dbf416292a9248be61d673e
+  https://swissdatasciencecenter.github.io/renku-ontology#hasRunParameters: []
+  https://swissdatasciencecenter.github.io/renku-ontology#hasSubprocess: []
+  https://swissdatasciencecenter.github.io/renku-ontology#successCodes: []
+- '@id': https://renkulab.io/runs/bdcb7f21-aee1-4abf-b10a-0b27dcd12927/inputs/1
+  '@type':
+  - https://swissdatasciencecenter.github.io/renku-ontology#CommandInput
+  - https://swissdatasciencecenter.github.io/renku-ontology#CommandParameter
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': Command Input "src/python/phillips_data.py"
+  https://swissdatasciencecenter.github.io/renku-ontology#consumes:
+  - '@id': https://renkulab.io/blob/cc189119994296ca5d155284dcc5295a8b136d7b/src/python/phillips_data.py
+  https://swissdatasciencecenter.github.io/renku-ontology#position:
+  - '@value': 1
+- '@id': https://renkulab.io/runs/bdcb7f21-aee1-4abf-b10a-0b27dcd12927/inputs/2
+  '@type':
+  - https://swissdatasciencecenter.github.io/renku-ontology#CommandInput
+  - https://swissdatasciencecenter.github.io/renku-ontology#CommandParameter
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': Command Input "data/oecd/CPI-2021.csv"
+  https://swissdatasciencecenter.github.io/renku-ontology#consumes:
+  - '@id': https://renkulab.io/blob/d903ed96eba41ddbf48516e16ed15b4d08c51d39/data/oecd/CPI-2021.csv
+  https://swissdatasciencecenter.github.io/renku-ontology#position:
+  - '@value': 2
+- '@id': https://renkulab.io/runs/bdcb7f21-aee1-4abf-b10a-0b27dcd12927/inputs/3
+  '@type':
+  - https://swissdatasciencecenter.github.io/renku-ontology#CommandInput
+  - https://swissdatasciencecenter.github.io/renku-ontology#CommandParameter
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': Command Input "data/oecd/UE-2021.csv"
+  https://swissdatasciencecenter.github.io/renku-ontology#consumes:
+  - '@id': https://renkulab.io/blob/d903ed96eba41ddbf48516e16ed15b4d08c51d39/data/oecd/UE-2021.csv
+  https://swissdatasciencecenter.github.io/renku-ontology#position:
+  - '@value': 3
+- '@id': https://renkulab.io/runs/bdcb7f21-aee1-4abf-b10a-0b27dcd12927/outputs/abf80a058dbf416292a9248be61d673e
+  '@type':
+  - https://swissdatasciencecenter.github.io/renku-ontology#CommandOutput
+  - https://swissdatasciencecenter.github.io/renku-ontology#CommandParameter
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': Command Output "data/phillips-ue-cpi.csv"
+  https://swissdatasciencecenter.github.io/renku-ontology#createFolder:
+  - '@value': true
+  https://swissdatasciencecenter.github.io/renku-ontology#produces:
+  - '@id': https://renkulab.io/blob/593a48580716cef4d1ada7d3ca500ec05b5d0acb/data/phillips-ue-cpi.csv
+- '@id': mailto:cramakri@ethz.ch
+  '@type':
+  - http://schema.org/Person
+  - http://www.w3.org/ns/prov#Person
+  http://schema.org/email:
+  - '@value': cramakri@ethz.ch
+  http://schema.org/name:
+  - '@value': Chandrasekhar Ramakrishnan
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': Chandrasekhar Ramakrishnan
