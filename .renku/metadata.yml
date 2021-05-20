@@ -1,8 +1,8 @@
-'@id': https://illposed.com/projects/home/cram/repos/intro-data-viz
+'@id': https://renkulab.io/projects/cramakri/intro-data-viz
 '@type':
 - http://schema.org/Project
 - http://www.w3.org/ns/prov#Location
-http://schema.org/agent: 0.15.0
+http://schema.org/agent: 0.12.2
 http://schema.org/creator:
   '@id': mailto:cramakri@ethz.ch
   '@type':
