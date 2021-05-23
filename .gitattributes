@@ -1,3 +1,4 @@
 data/oecd/CPI-2021.csv filter=lfs diff=lfs merge=lfs -text
 data/oecd/UE-2021.csv filter=lfs diff=lfs merge=lfs -text
 data/mortality-fr/2021-05-21_deces_quotidiens_departement_csv.txt filter=lfs diff=lfs merge=lfs -text
+data/covid-19_jhu-csse/time_series_covid19_deaths_global.csv filter=lfs diff=lfs merge=lfs -text

@@ -1,4 +1,51 @@
-- '@id': https://renkulab.io/datasets/a8210d87-8654-46b4-806e-d8420c3b761f
+- '@id': https://github.com/blob/8aa13b1575a7e26323fe979e1a846faeb2f31fd6/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv
+  '@type':
+  - http://purl.org/wf4ever/wfprov#Artifact
+  - http://schema.org/DigitalDocument
+  - http://www.w3.org/ns/prov#Entity
+  http://schema.org/dateCreated:
+  - '@value': '2021-05-23T10:52:09.229020+00:00'
+  http://schema.org/name:
+  - '@value': time_series_covid19_deaths_global.csv
+  http://schema.org/url:
+  - '@value': https://github.com/CSSEGISandData/COVID-19.git
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv@8aa13b1575a7e26323fe979e1a846faeb2f31fd6
+  http://www.w3.org/ns/prov#atLocation:
+  - '@value': csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv
+  https://swissdatasciencecenter.github.io/renku-ontology#external:
+  - '@value': false
+  https://swissdatasciencecenter.github.io/renku-ontology#source:
+  - '@value': https://github.com/CSSEGISandData/COVID-19.git
+- '@id': https://localhost/urls/%2F%2Frenkulab.io%2Fdatasets%2Fa8210d87-8654-46b4-806e-d8420c3b761f
+  '@type':
+  - http://schema.org/URL
+  http://schema.org/url:
+  - '@id': https://renkulab.io/datasets/a8210d87-8654-46b4-806e-d8420c3b761f
+- '@id': https://renkulab.io/blob/c717e50b6103dbca3d3c0797321723abec06043b/data/covid-19_jhu-csse/time_series_covid19_deaths_global.csv
+  '@type':
+  - http://purl.org/wf4ever/wfprov#Artifact
+  - http://schema.org/DigitalDocument
+  - http://www.w3.org/ns/prov#Entity
+  http://schema.org/dateCreated:
+  - '@value': '2021-05-23T10:52:11.936133+00:00'
+  http://schema.org/isBasedOn:
+  - '@id': https://github.com/blob/8aa13b1575a7e26323fe979e1a846faeb2f31fd6/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_global.csv
+  http://schema.org/isPartOf:
+  - '@id': https://renkulab.io/projects/cramakri/intro-data-viz
+  http://schema.org/name:
+  - '@value': time_series_covid19_deaths_global.csv
+  http://schema.org/url:
+  - '@value': https://renkulab.io/projects/cramakri/intro-data-viz/files/blob/data/covid-19_jhu-csse/time_series_covid19_deaths_global.csv
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': data/covid-19_jhu-csse/time_series_covid19_deaths_global.csv@c717e50b6103dbca3d3c0797321723abec06043b
+  http://www.w3.org/ns/prov#atLocation:
+  - '@value': data/covid-19_jhu-csse/time_series_covid19_deaths_global.csv
+  https://swissdatasciencecenter.github.io/renku-ontology#external:
+  - '@value': false
+  https://swissdatasciencecenter.github.io/renku-ontology#source:
+  - '@value': https://github.com/CSSEGISandData/COVID-19.git
+- '@id': https://renkulab.io/datasets/a1ccbe01-0357-48c9-a3fe-c6c011c13fed
   '@type':
   - http://purl.org/wf4ever/wfprov#Artifact
   - http://schema.org/Dataset
@@ -8,10 +55,11 @@
   http://schema.org/creator:
   - '@id': mailto:cramakri@ethz.ch
   http://schema.org/dateCreated:
-  - '@value': '2021-05-23T10:44:00.500315+00:00'
-  http://schema.org/hasPart: []
+  - '@value': '2021-05-23T10:52:11.950141+00:00'
+  http://schema.org/hasPart:
+  - '@id': https://renkulab.io/blob/c717e50b6103dbca3d3c0797321723abec06043b/data/covid-19_jhu-csse/time_series_covid19_deaths_global.csv
   http://schema.org/identifier:
-  - '@value': a8210d87-8654-46b4-806e-d8420c3b761f
+  - '@value': a1ccbe01-0357-48c9-a3fe-c6c011c13fed
   http://schema.org/isPartOf:
   - '@id': https://renkulab.io/projects/cramakri/intro-data-viz
   http://schema.org/keywords: []
@@ -19,11 +67,13 @@
   - '@value': covid-19_jhu-csse
   http://schema.org/subjectOf: []
   http://schema.org/url:
-  - '@value': https://renkulab.io/datasets/a8210d87-8654-46b4-806e-d8420c3b761f
+  - '@value': https://renkulab.io/datasets/a1ccbe01-0357-48c9-a3fe-c6c011c13fed
   http://www.w3.org/2000/01/rdf-schema#label:
-  - '@value': a8210d87-8654-46b4-806e-d8420c3b761f
+  - '@value': a1ccbe01-0357-48c9-a3fe-c6c011c13fed
   http://www.w3.org/ns/prov#atLocation:
   - '@value': .renku/datasets/a8210d87-8654-46b4-806e-d8420c3b761f
+  http://www.w3.org/ns/prov#wasDerivedFrom:
+  - '@id': https://localhost/urls/%2F%2Frenkulab.io%2Fdatasets%2Fa8210d87-8654-46b4-806e-d8420c3b761f
 - '@id': https://renkulab.io/projects/cramakri/intro-data-viz
   '@type':
   - http://schema.org/Project
