@@ -1,4 +1,30 @@
-- '@id': https://renkulab.io/datasets/38513cc2-cf1b-45aa-bfe3-94aca7e46eae
+- '@id': https://localhost/urls/%2F%2Frenkulab.io%2Fdatasets%2F38513cc2-cf1b-45aa-bfe3-94aca7e46eae
+  '@type':
+  - http://schema.org/URL
+  http://schema.org/url:
+  - '@id': https://renkulab.io/datasets/38513cc2-cf1b-45aa-bfe3-94aca7e46eae
+- '@id': https://renkulab.io/blob/ff3f1677e39b43d8c45f4e96770d335beac9fb47/data/demographics/france_demographics.csv
+  '@type':
+  - http://purl.org/wf4ever/wfprov#Artifact
+  - http://schema.org/DigitalDocument
+  - http://www.w3.org/ns/prov#Entity
+  http://schema.org/dateCreated:
+  - '@value': '2021-05-23T14:26:56.755966+00:00'
+  http://schema.org/isPartOf:
+  - '@id': https://renkulab.io/projects/cramakri/intro-data-viz
+  http://schema.org/name:
+  - '@value': france_demographics.csv
+  http://schema.org/url:
+  - '@value': https://renkulab.io/projects/cramakri/intro-data-viz/files/blob/data/demographics/france_demographics.csv
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': data/demographics/france_demographics.csv@ff3f1677e39b43d8c45f4e96770d335beac9fb47
+  http://www.w3.org/ns/prov#atLocation:
+  - '@value': data/demographics/france_demographics.csv
+  https://swissdatasciencecenter.github.io/renku-ontology#external:
+  - '@value': false
+  https://swissdatasciencecenter.github.io/renku-ontology#source:
+  - '@value': data/demographics/france_demographics.csv
+- '@id': https://renkulab.io/datasets/4cc7f0ec-d318-4144-bd4c-533dbd707b18
   '@type':
   - http://purl.org/wf4ever/wfprov#Artifact
   - http://schema.org/Dataset
@@ -8,10 +34,11 @@
   http://schema.org/creator:
   - '@id': mailto:cramakri@ethz.ch
   http://schema.org/dateCreated:
-  - '@value': '2021-05-23T14:26:41.065004+00:00'
-  http://schema.org/hasPart: []
+  - '@value': '2021-05-23T14:26:56.772869+00:00'
+  http://schema.org/hasPart:
+  - '@id': https://renkulab.io/blob/ff3f1677e39b43d8c45f4e96770d335beac9fb47/data/demographics/france_demographics.csv
   http://schema.org/identifier:
-  - '@value': 38513cc2-cf1b-45aa-bfe3-94aca7e46eae
+  - '@value': 4cc7f0ec-d318-4144-bd4c-533dbd707b18
   http://schema.org/isPartOf:
   - '@id': https://renkulab.io/projects/cramakri/intro-data-viz
   http://schema.org/keywords: []
@@ -19,11 +46,13 @@
   - '@value': demographics
   http://schema.org/subjectOf: []
   http://schema.org/url:
-  - '@value': https://renkulab.io/datasets/38513cc2-cf1b-45aa-bfe3-94aca7e46eae
+  - '@value': https://renkulab.io/datasets/4cc7f0ec-d318-4144-bd4c-533dbd707b18
   http://www.w3.org/2000/01/rdf-schema#label:
-  - '@value': 38513cc2-cf1b-45aa-bfe3-94aca7e46eae
+  - '@value': 4cc7f0ec-d318-4144-bd4c-533dbd707b18
   http://www.w3.org/ns/prov#atLocation:
   - '@value': .renku/datasets/38513cc2-cf1b-45aa-bfe3-94aca7e46eae
+  http://www.w3.org/ns/prov#wasDerivedFrom:
+  - '@id': https://localhost/urls/%2F%2Frenkulab.io%2Fdatasets%2F38513cc2-cf1b-45aa-bfe3-94aca7e46eae
 - '@id': https://renkulab.io/projects/cramakri/intro-data-viz
   '@type':
   - http://schema.org/Project
