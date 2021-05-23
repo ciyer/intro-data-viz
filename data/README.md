@@ -27,4 +27,5 @@ This directory contains the following data.
     - http://coulmont.com/blog/2020/04/24/2020-une-mortalite-specifique/
     - https://www.insee.fr/fr/statistiques/4487988?sommaire=4487854 (downloaded 23-05-2021)
     - https://en.wikipedia.org/wiki/Demographics_of_France#Vital_statistics_from_1900[25] (use en since they have an estimate of 2021 population)
-- Provenance: See Renku KG to see how this file is constructed from the fr-covid dataset
+    - https://github.com/CSSEGISandData/COVID-19.git
+- Provenance: See Renku KG to see how this file is constructed from the mortality-fr dataset and covid-19_jhu-csse
