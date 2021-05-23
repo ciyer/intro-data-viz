@@ -1,0 +1,217 @@
+- '@id': https://github.com/swissdatasciencecenter/renku-python/tree/v0.12.2
+  '@type':
+  - http://purl.org/wf4ever/wfprov#WorkflowEngine
+  - http://www.w3.org/ns/prov#SoftwareAgent
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': renku 0.12.2
+- '@id': https://localhost/activities/commit/cb120ee394c0e8429e428e487d00ad2dbaa37f83
+  '@type':
+  - http://purl.org/wf4ever/wfprov#ProcessRun
+  - http://www.w3.org/ns/prov#Activity
+  http://schema.org/isPartOf:
+  - '@id': https://renkulab.io/projects/cramakri/intro-data-viz
+  http://www.w3.org/2000/01/rdf-schema#comment:
+  - '@value': 'renku run: committing 1 newly added files'
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': .renku/workflow/42492226403a43e1b2b9daffea160c2e_python.yaml@cb120ee394c0e8429e428e487d00ad2dbaa37f83
+  http://www.w3.org/ns/prov#atLocation:
+  - '@value': .renku/workflow/42492226403a43e1b2b9daffea160c2e_python.yaml
+  http://www.w3.org/ns/prov#endedAtTime:
+  - '@type': http://www.w3.org/2001/XMLSchema#dateTime
+    '@value': '2021-05-23T22:09:10+00:00'
+  http://www.w3.org/ns/prov#influenced: []
+  http://www.w3.org/ns/prov#qualifiedAssociation:
+  - '@id': https://localhost/activities/commit/cb120ee394c0e8429e428e487d00ad2dbaa37f83/association
+  http://www.w3.org/ns/prov#qualifiedUsage:
+  - '@id': https://localhost/activities/commit/cb120ee394c0e8429e428e487d00ad2dbaa37f83/inputs/1
+  - '@id': https://localhost/activities/commit/cb120ee394c0e8429e428e487d00ad2dbaa37f83/inputs/2
+  - '@id': https://localhost/activities/commit/cb120ee394c0e8429e428e487d00ad2dbaa37f83/inputs/3
+  http://www.w3.org/ns/prov#startedAtTime:
+  - '@type': http://www.w3.org/2001/XMLSchema#dateTime
+    '@value': '2021-05-23T22:09:10+00:00'
+  http://www.w3.org/ns/prov#wasAssociatedWith:
+  - '@id': mailto:cramakri@ethz.ch
+  - '@id': https://github.com/swissdatasciencecenter/renku-python/tree/v0.12.2
+  http://www.w3.org/ns/prov#wasInformedBy:
+  - '@id': https://localhost/activities/commit/c36020eed12c9d30156263a35005043c081ced1c
+  https://swissdatasciencecenter.github.io/renku-ontology#hasRunParameter: []
+- '@id': https://localhost/activities/commit/cb120ee394c0e8429e428e487d00ad2dbaa37f83/association
+  '@type':
+  - http://www.w3.org/ns/prov#Association
+  http://www.w3.org/ns/prov#agent:
+  - '@id': https://github.com/swissdatasciencecenter/renku-python/tree/v0.12.2
+  http://www.w3.org/ns/prov#hadPlan:
+  - '@id': https://renkulab.io/runs/2d5d1c76-a067-4fa2-a649-b14004a63e6c
+- '@id': https://localhost/activities/commit/cb120ee394c0e8429e428e487d00ad2dbaa37f83/inputs/1
+  '@type':
+  - http://www.w3.org/ns/prov#Usage
+  http://www.w3.org/ns/prov#entity:
+  - '@id': https://renkulab.io/blob/d9ca164dd4d9588024a6dbfaea1fc33268fddc50/src/python/mortality_covid_fr_data.py
+  http://www.w3.org/ns/prov#hadRole:
+  - '@value': inputs/1
+- '@id': https://localhost/activities/commit/cb120ee394c0e8429e428e487d00ad2dbaa37f83/inputs/2
+  '@type':
+  - http://www.w3.org/ns/prov#Usage
+  http://www.w3.org/ns/prov#entity:
+  - '@id': https://renkulab.io/blob/d0acaeaba114a57038da71a607a675b01f9a3569/data/aux/mortality-fr.csv
+  http://www.w3.org/ns/prov#hadRole:
+  - '@value': inputs/2
+- '@id': https://localhost/activities/commit/cb120ee394c0e8429e428e487d00ad2dbaa37f83/inputs/3
+  '@type':
+  - http://www.w3.org/ns/prov#Usage
+  http://www.w3.org/ns/prov#entity:
+  - '@id': https://renkulab.io/blob/b70cfd7742097258f5ff146cd6316b83b81ae06b/data/covid-19_jhu-csse/time_series_covid19_deaths_global.csv
+  http://www.w3.org/ns/prov#hadRole:
+  - '@value': inputs/3
+- '@id': https://localhost/activities/commit/cb120ee394c0e8429e428e487d00ad2dbaa37f83/outputs/d9842e9923ee46988aaa7a890433c0df
+  '@type':
+  - http://www.w3.org/ns/prov#Generation
+  http://www.w3.org/ns/prov#activity:
+  - '@id': https://localhost/activities/commit/cb120ee394c0e8429e428e487d00ad2dbaa37f83
+  http://www.w3.org/ns/prov#hadRole:
+  - '@value': outputs/d9842e9923ee46988aaa7a890433c0df
+- '@id': https://renkulab.io/blob/b70cfd7742097258f5ff146cd6316b83b81ae06b/data/covid-19_jhu-csse/time_series_covid19_deaths_global.csv
+  '@type':
+  - http://purl.org/wf4ever/wfprov#Artifact
+  - http://www.w3.org/ns/prov#Entity
+  http://schema.org/isPartOf:
+  - '@id': https://renkulab.io/projects/cramakri/intro-data-viz
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': data/covid-19_jhu-csse/time_series_covid19_deaths_global.csv@b70cfd7742097258f5ff146cd6316b83b81ae06b
+  http://www.w3.org/ns/prov#atLocation:
+  - '@value': data/covid-19_jhu-csse/time_series_covid19_deaths_global.csv
+- '@id': https://renkulab.io/blob/cb120ee394c0e8429e428e487d00ad2dbaa37f83/data/mortality-covid-fr.csv
+  '@type':
+  - http://purl.org/wf4ever/wfprov#Artifact
+  - http://www.w3.org/ns/prov#Entity
+  http://schema.org/isPartOf:
+  - '@id': https://renkulab.io/projects/cramakri/intro-data-viz
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': data/mortality-covid-fr.csv@cb120ee394c0e8429e428e487d00ad2dbaa37f83
+  http://www.w3.org/ns/prov#atLocation:
+  - '@value': data/mortality-covid-fr.csv
+  http://www.w3.org/ns/prov#qualifiedGeneration:
+  - '@id': https://localhost/activities/commit/cb120ee394c0e8429e428e487d00ad2dbaa37f83/outputs/d9842e9923ee46988aaa7a890433c0df
+- '@id': https://renkulab.io/blob/d0acaeaba114a57038da71a607a675b01f9a3569/data/aux/mortality-fr.csv
+  '@type':
+  - http://purl.org/wf4ever/wfprov#Artifact
+  - http://www.w3.org/ns/prov#Entity
+  http://schema.org/isPartOf:
+  - '@id': https://renkulab.io/projects/cramakri/intro-data-viz
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': data/aux/mortality-fr.csv@d0acaeaba114a57038da71a607a675b01f9a3569
+  http://www.w3.org/ns/prov#atLocation:
+  - '@value': data/aux/mortality-fr.csv
+- '@id': https://renkulab.io/blob/d9ca164dd4d9588024a6dbfaea1fc33268fddc50/src/python/mortality_covid_fr_data.py
+  '@type':
+  - http://purl.org/wf4ever/wfprov#Artifact
+  - http://www.w3.org/ns/prov#Entity
+  http://schema.org/isPartOf:
+  - '@id': https://renkulab.io/projects/cramakri/intro-data-viz
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': src/python/mortality_covid_fr_data.py@d9ca164dd4d9588024a6dbfaea1fc33268fddc50
+  http://www.w3.org/ns/prov#atLocation:
+  - '@value': src/python/mortality_covid_fr_data.py
+- '@id': https://renkulab.io/projects/cramakri/intro-data-viz
+  '@type':
+  - http://schema.org/Project
+  - http://www.w3.org/ns/prov#Location
+  http://schema.org/agent:
+  - '@value': 0.12.2
+  http://schema.org/creator:
+  - '@id': mailto:cramakri@ethz.ch
+  http://schema.org/dateCreated:
+  - '@value': '2021-05-19T16:52:53.248396+00:00'
+  http://schema.org/name:
+  - '@value': intro-data-viz
+  http://schema.org/schemaVersion:
+  - '@value': '8'
+  https://swissdatasciencecenter.github.io/renku-ontology#automatedTemplateUpdate:
+  - '@value': false
+  https://swissdatasciencecenter.github.io/renku-ontology#immutableTemplateFiles: []
+  https://swissdatasciencecenter.github.io/renku-ontology#templateId:
+  - '@value': python-minimal
+  https://swissdatasciencecenter.github.io/renku-ontology#templateMetadata:
+  - '@value': '{"description": "A very b, very brief introduction to data visualization.",
+      "__template_source__": "renku", "__template_ref__": "master", "__template_id__":
+      "python-minimal", "__namespace__": "", "__sanitized_project_name__": "", "__repository__":
+      "", "__project_slug__": "", "name": "intro-data-viz"}'
+  https://swissdatasciencecenter.github.io/renku-ontology#templateReference:
+  - '@value': master
+  https://swissdatasciencecenter.github.io/renku-ontology#templateSource:
+  - '@value': renku
+  https://swissdatasciencecenter.github.io/renku-ontology#templateVersion:
+  - '@value': 0.15.0
+- '@id': https://renkulab.io/runs/2d5d1c76-a067-4fa2-a649-b14004a63e6c
+  '@type':
+  - http://www.w3.org/ns/prov#Entity
+  - http://www.w3.org/ns/prov#Plan
+  - https://swissdatasciencecenter.github.io/renku-ontology#Run
+  http://schema.org/isPartOf:
+  - '@id': https://renkulab.io/projects/cramakri/intro-data-viz
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': .renku/workflow/42492226403a43e1b2b9daffea160c2e_python.yaml@cb120ee394c0e8429e428e487d00ad2dbaa37f83
+  http://www.w3.org/ns/prov#atLocation:
+  - '@value': .renku/workflow/42492226403a43e1b2b9daffea160c2e_python.yaml
+  https://swissdatasciencecenter.github.io/renku-ontology#command:
+  - '@value': python
+  https://swissdatasciencecenter.github.io/renku-ontology#hasArguments: []
+  https://swissdatasciencecenter.github.io/renku-ontology#hasInputs:
+  - '@id': https://renkulab.io/runs/2d5d1c76-a067-4fa2-a649-b14004a63e6c/inputs/1
+  - '@id': https://renkulab.io/runs/2d5d1c76-a067-4fa2-a649-b14004a63e6c/inputs/2
+  - '@id': https://renkulab.io/runs/2d5d1c76-a067-4fa2-a649-b14004a63e6c/inputs/3
+  https://swissdatasciencecenter.github.io/renku-ontology#hasOutputs:
+  - '@id': https://renkulab.io/runs/2d5d1c76-a067-4fa2-a649-b14004a63e6c/outputs/d9842e9923ee46988aaa7a890433c0df
+  https://swissdatasciencecenter.github.io/renku-ontology#hasRunParameters: []
+  https://swissdatasciencecenter.github.io/renku-ontology#hasSubprocess: []
+  https://swissdatasciencecenter.github.io/renku-ontology#successCodes: []
+- '@id': https://renkulab.io/runs/2d5d1c76-a067-4fa2-a649-b14004a63e6c/inputs/1
+  '@type':
+  - https://swissdatasciencecenter.github.io/renku-ontology#CommandInput
+  - https://swissdatasciencecenter.github.io/renku-ontology#CommandParameter
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': Command Input "src/python/mortality_covid_fr_data.py"
+  https://swissdatasciencecenter.github.io/renku-ontology#consumes:
+  - '@id': https://renkulab.io/blob/d9ca164dd4d9588024a6dbfaea1fc33268fddc50/src/python/mortality_covid_fr_data.py
+  https://swissdatasciencecenter.github.io/renku-ontology#position:
+  - '@value': 1
+- '@id': https://renkulab.io/runs/2d5d1c76-a067-4fa2-a649-b14004a63e6c/inputs/2
+  '@type':
+  - https://swissdatasciencecenter.github.io/renku-ontology#CommandInput
+  - https://swissdatasciencecenter.github.io/renku-ontology#CommandParameter
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': Command Input "data/aux/mortality-fr.csv"
+  https://swissdatasciencecenter.github.io/renku-ontology#consumes:
+  - '@id': https://renkulab.io/blob/d0acaeaba114a57038da71a607a675b01f9a3569/data/aux/mortality-fr.csv
+  https://swissdatasciencecenter.github.io/renku-ontology#position:
+  - '@value': 2
+- '@id': https://renkulab.io/runs/2d5d1c76-a067-4fa2-a649-b14004a63e6c/inputs/3
+  '@type':
+  - https://swissdatasciencecenter.github.io/renku-ontology#CommandInput
+  - https://swissdatasciencecenter.github.io/renku-ontology#CommandParameter
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': Command Input "data/covid-19_jhu-csse/time_series_covid19_deaths_global.csv"
+  https://swissdatasciencecenter.github.io/renku-ontology#consumes:
+  - '@id': https://renkulab.io/blob/b70cfd7742097258f5ff146cd6316b83b81ae06b/data/covid-19_jhu-csse/time_series_covid19_deaths_global.csv
+  https://swissdatasciencecenter.github.io/renku-ontology#position:
+  - '@value': 3
+- '@id': https://renkulab.io/runs/2d5d1c76-a067-4fa2-a649-b14004a63e6c/outputs/d9842e9923ee46988aaa7a890433c0df
+  '@type':
+  - https://swissdatasciencecenter.github.io/renku-ontology#CommandOutput
+  - https://swissdatasciencecenter.github.io/renku-ontology#CommandParameter
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': Command Output "data/mortality-covid-fr.csv"
+  https://swissdatasciencecenter.github.io/renku-ontology#createFolder:
+  - '@value': true
+  https://swissdatasciencecenter.github.io/renku-ontology#produces:
+  - '@id': https://renkulab.io/blob/cb120ee394c0e8429e428e487d00ad2dbaa37f83/data/mortality-covid-fr.csv
+- '@id': mailto:cramakri@ethz.ch
+  '@type':
+  - http://schema.org/Person
+  - http://www.w3.org/ns/prov#Person
+  http://schema.org/email:
+  - '@value': cramakri@ethz.ch
+  http://schema.org/name:
+  - '@value': Chandrasekhar Ramakrishnan
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': Chandrasekhar Ramakrishnan

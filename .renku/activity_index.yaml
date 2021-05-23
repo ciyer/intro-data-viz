@@ -1,6 +1,9 @@
 data/aux/mortality-fr.csv:
   207f65747d840802e4be7b6a301a7f889becaaa1:
   - .renku/workflow/7a2cbce46bd347c1aabb594783949fd5_python.yaml
+data/mortality-covid-fr.csv:
+  cb120ee394c0e8429e428e487d00ad2dbaa37f83:
+  - .renku/workflow/42492226403a43e1b2b9daffea160c2e_python.yaml
 data/phillips-ue-cpi.csv:
   593a48580716cef4d1ada7d3ca500ec05b5d0acb:
   - .renku/workflow/5e0f247c5f8a4e01b5f367d2938e6e9e_python.yaml
