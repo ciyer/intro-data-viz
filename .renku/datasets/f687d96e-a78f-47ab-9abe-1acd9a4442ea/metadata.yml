@@ -1,0 +1,66 @@
+- '@id': https://renkulab.io/datasets/f687d96e-a78f-47ab-9abe-1acd9a4442ea
+  '@type':
+  - http://purl.org/wf4ever/wfprov#Artifact
+  - http://schema.org/Dataset
+  - http://www.w3.org/ns/prov#Entity
+  http://schema.org/alternateName:
+  - '@value': mortality-fr
+  http://schema.org/creator:
+  - '@id': mailto:cramakri@ethz.ch
+  http://schema.org/dateCreated:
+  - '@value': '2021-05-23T08:12:54.434482+00:00'
+  http://schema.org/hasPart: []
+  http://schema.org/identifier:
+  - '@value': f687d96e-a78f-47ab-9abe-1acd9a4442ea
+  http://schema.org/isPartOf:
+  - '@id': https://renkulab.io/projects/cramakri/intro-data-viz
+  http://schema.org/keywords: []
+  http://schema.org/name:
+  - '@value': mortality-fr
+  http://schema.org/subjectOf: []
+  http://schema.org/url:
+  - '@value': https://renkulab.io/datasets/f687d96e-a78f-47ab-9abe-1acd9a4442ea
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': f687d96e-a78f-47ab-9abe-1acd9a4442ea
+  http://www.w3.org/ns/prov#atLocation:
+  - '@value': .renku/datasets/f687d96e-a78f-47ab-9abe-1acd9a4442ea
+- '@id': https://renkulab.io/projects/cramakri/intro-data-viz
+  '@type':
+  - http://schema.org/Project
+  - http://www.w3.org/ns/prov#Location
+  http://schema.org/agent:
+  - '@value': 0.12.2
+  http://schema.org/creator:
+  - '@id': mailto:cramakri@ethz.ch
+  http://schema.org/dateCreated:
+  - '@value': '2021-05-19T16:52:53.248396+00:00'
+  http://schema.org/name:
+  - '@value': intro-data-viz
+  http://schema.org/schemaVersion:
+  - '@value': '8'
+  https://swissdatasciencecenter.github.io/renku-ontology#automatedTemplateUpdate:
+  - '@value': false
+  https://swissdatasciencecenter.github.io/renku-ontology#immutableTemplateFiles: []
+  https://swissdatasciencecenter.github.io/renku-ontology#templateId:
+  - '@value': python-minimal
+  https://swissdatasciencecenter.github.io/renku-ontology#templateMetadata:
+  - '@value': '{"description": "A very b, very brief introduction to data visualization.",
+      "__template_source__": "renku", "__template_ref__": "master", "__template_id__":
+      "python-minimal", "__namespace__": "", "__sanitized_project_name__": "", "__repository__":
+      "", "__project_slug__": "", "name": "intro-data-viz"}'
+  https://swissdatasciencecenter.github.io/renku-ontology#templateReference:
+  - '@value': master
+  https://swissdatasciencecenter.github.io/renku-ontology#templateSource:
+  - '@value': renku
+  https://swissdatasciencecenter.github.io/renku-ontology#templateVersion:
+  - '@value': 0.15.0
+- '@id': mailto:cramakri@ethz.ch
+  '@type':
+  - http://schema.org/Person
+  - http://www.w3.org/ns/prov#Person
+  http://schema.org/email:
+  - '@value': cramakri@ethz.ch
+  http://schema.org/name:
+  - '@value': Chandrasekhar Ramakrishnan
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': Chandrasekhar Ramakrishnan
