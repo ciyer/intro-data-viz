@@ -20,3 +20,4 @@
 *.r
 *.md
 *.rst
+data/mortality-covid-fr.csv
