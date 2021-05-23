@@ -11,8 +11,6 @@ import statsmodels.api as sm
 
 lowess = sm.nonparametric.lowess
 
-palette = sns.color_palette()
-
 
 def read_data(path="data/phillips-ue-cpi.csv"):
     df = pd.read_csv(path)
@@ -100,10 +98,15 @@ def ue_cpi_reg_df(m_df, col):
 
 
 
-def xy_plot(ax, df, loc, xcol="UE", ycol="c_cpi", s_color=palette[1], r_color=palette[0], l_color=palette[4], text_offset=(0, 0)):
+def xy_plot(ax, df, loc, xcol="UE", ycol="c_cpi", s_color=None, r_color=None, l_color=None, a_color=None, text_offset=(0, 0)):
+    palette = sns.color_palette()
+    s_color = palette[1] if not s_color else s_color
+    r_color = palette[0] if not r_color else r_color
+    l_color = palette[4] if not l_color else l_color
+    a_color = palette[4] if not a_color else a_color
     tdf = df.loc[loc, :]
     ax.plot(tdf[xcol], tdf[ycol], alpha=0.5, color=l_color)
-    arrows(ax, tdf, xcol, ycol, palette[4])
+    arrows(ax, tdf, xcol, ycol, a_color)
     ax.scatter(tdf[xcol], tdf[ycol], alpha=0.6, s=80, color=s_color, label=loc)
     annotate_years(ax, tdf, xcol, ycol)
     regression(ax, tdf, xcol, ycol, r_color, loc, text_offset=text_offset)
@@ -130,6 +133,7 @@ def facet_xy_plot(xcol, ycol, color, **kwargs):
     data = kwargs['data'].set_index('TIME')
     loc = data.iloc[0]['LOCATION']
     ax = plt.gca()
+    palette = sns.color_palette()
     s_color=palette[1]
     r_color=palette[0]
     l_color=palette[4]

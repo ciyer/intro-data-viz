@@ -24,7 +24,7 @@ This directory contains the following data.
 
 - Data: Count of daily deaths in France from 1 Jan 2000 to 18 May 2020
 - Source
-    - http://coulmont.com/blog/2020/04/24/2020-une-mortalite-specifique/
+    - http://data.cquest.org/insee_deces/ (http://coulmont.com/blog/2020/04/24/2020-une-mortalite-specifique/)
     - https://www.insee.fr/fr/statistiques/4487988?sommaire=4487854 (downloaded 23-05-2021)
     - https://en.wikipedia.org/wiki/Demographics_of_France#Vital_statistics_from_1900[25] (use en since they have an estimate of 2021 population)
     - https://github.com/CSSEGISandData/COVID-19.git
