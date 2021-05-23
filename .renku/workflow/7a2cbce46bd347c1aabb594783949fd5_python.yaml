@@ -1,0 +1,217 @@
+- '@id': https://github.com/swissdatasciencecenter/renku-python/tree/v0.12.2
+  '@type':
+  - http://purl.org/wf4ever/wfprov#WorkflowEngine
+  - http://www.w3.org/ns/prov#SoftwareAgent
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': renku 0.12.2
+- '@id': https://localhost/activities/commit/207f65747d840802e4be7b6a301a7f889becaaa1
+  '@type':
+  - http://purl.org/wf4ever/wfprov#ProcessRun
+  - http://www.w3.org/ns/prov#Activity
+  http://schema.org/isPartOf:
+  - '@id': https://renkulab.io/projects/cramakri/intro-data-viz
+  http://www.w3.org/2000/01/rdf-schema#comment:
+  - '@value': 'renku run: committing 1 newly added files'
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': .renku/workflow/7a2cbce46bd347c1aabb594783949fd5_python.yaml@207f65747d840802e4be7b6a301a7f889becaaa1
+  http://www.w3.org/ns/prov#atLocation:
+  - '@value': .renku/workflow/7a2cbce46bd347c1aabb594783949fd5_python.yaml
+  http://www.w3.org/ns/prov#endedAtTime:
+  - '@type': http://www.w3.org/2001/XMLSchema#dateTime
+    '@value': '2021-05-23T11:56:38+00:00'
+  http://www.w3.org/ns/prov#influenced: []
+  http://www.w3.org/ns/prov#qualifiedAssociation:
+  - '@id': https://localhost/activities/commit/207f65747d840802e4be7b6a301a7f889becaaa1/association
+  http://www.w3.org/ns/prov#qualifiedUsage:
+  - '@id': https://localhost/activities/commit/207f65747d840802e4be7b6a301a7f889becaaa1/inputs/1
+  - '@id': https://localhost/activities/commit/207f65747d840802e4be7b6a301a7f889becaaa1/inputs/2
+  - '@id': https://localhost/activities/commit/207f65747d840802e4be7b6a301a7f889becaaa1/inputs/3
+  http://www.w3.org/ns/prov#startedAtTime:
+  - '@type': http://www.w3.org/2001/XMLSchema#dateTime
+    '@value': '2021-05-23T11:56:38+00:00'
+  http://www.w3.org/ns/prov#wasAssociatedWith:
+  - '@id': mailto:cramakri@ethz.ch
+  - '@id': https://github.com/swissdatasciencecenter/renku-python/tree/v0.12.2
+  http://www.w3.org/ns/prov#wasInformedBy:
+  - '@id': https://localhost/activities/commit/34b75ae639ecfdb9f66f49d5fa8b39946b21934f
+  https://swissdatasciencecenter.github.io/renku-ontology#hasRunParameter: []
+- '@id': https://localhost/activities/commit/207f65747d840802e4be7b6a301a7f889becaaa1/association
+  '@type':
+  - http://www.w3.org/ns/prov#Association
+  http://www.w3.org/ns/prov#agent:
+  - '@id': https://github.com/swissdatasciencecenter/renku-python/tree/v0.12.2
+  http://www.w3.org/ns/prov#hadPlan:
+  - '@id': https://renkulab.io/runs/c21067b9-be89-4d30-a09c-612bef9be10a
+- '@id': https://localhost/activities/commit/207f65747d840802e4be7b6a301a7f889becaaa1/inputs/1
+  '@type':
+  - http://www.w3.org/ns/prov#Usage
+  http://www.w3.org/ns/prov#entity:
+  - '@id': https://renkulab.io/blob/fc5a6fe971bbbc7d022bc46e7724aebd0031c250/src/python/mortality_fr_data.py
+  http://www.w3.org/ns/prov#hadRole:
+  - '@value': inputs/1
+- '@id': https://localhost/activities/commit/207f65747d840802e4be7b6a301a7f889becaaa1/inputs/2
+  '@type':
+  - http://www.w3.org/ns/prov#Usage
+  http://www.w3.org/ns/prov#entity:
+  - '@id': https://renkulab.io/blob/88a87d5e9c1a4c382c1a63a5a998d9dd188b226d/data/mortality-fr/morts_2020-05-18.csv
+  http://www.w3.org/ns/prov#hadRole:
+  - '@value': inputs/2
+- '@id': https://localhost/activities/commit/207f65747d840802e4be7b6a301a7f889becaaa1/inputs/3
+  '@type':
+  - http://www.w3.org/ns/prov#Usage
+  http://www.w3.org/ns/prov#entity:
+  - '@id': https://renkulab.io/blob/e137945ccf10e04bc4ef04e13bb890fc2ef23af2/data/mortality-fr/2021-05-21_deces_quotidiens_departement_csv.txt
+  http://www.w3.org/ns/prov#hadRole:
+  - '@value': inputs/3
+- '@id': https://localhost/activities/commit/207f65747d840802e4be7b6a301a7f889becaaa1/outputs/d266b052f97d4cd7aa7d8f38b9f48901
+  '@type':
+  - http://www.w3.org/ns/prov#Generation
+  http://www.w3.org/ns/prov#activity:
+  - '@id': https://localhost/activities/commit/207f65747d840802e4be7b6a301a7f889becaaa1
+  http://www.w3.org/ns/prov#hadRole:
+  - '@value': outputs/d266b052f97d4cd7aa7d8f38b9f48901
+- '@id': https://renkulab.io/blob/207f65747d840802e4be7b6a301a7f889becaaa1/data/aux/mortality-fr.csv
+  '@type':
+  - http://purl.org/wf4ever/wfprov#Artifact
+  - http://www.w3.org/ns/prov#Entity
+  http://schema.org/isPartOf:
+  - '@id': https://renkulab.io/projects/cramakri/intro-data-viz
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': data/aux/mortality-fr.csv@207f65747d840802e4be7b6a301a7f889becaaa1
+  http://www.w3.org/ns/prov#atLocation:
+  - '@value': data/aux/mortality-fr.csv
+  http://www.w3.org/ns/prov#qualifiedGeneration:
+  - '@id': https://localhost/activities/commit/207f65747d840802e4be7b6a301a7f889becaaa1/outputs/d266b052f97d4cd7aa7d8f38b9f48901
+- '@id': https://renkulab.io/blob/88a87d5e9c1a4c382c1a63a5a998d9dd188b226d/data/mortality-fr/morts_2020-05-18.csv
+  '@type':
+  - http://purl.org/wf4ever/wfprov#Artifact
+  - http://www.w3.org/ns/prov#Entity
+  http://schema.org/isPartOf:
+  - '@id': https://renkulab.io/projects/cramakri/intro-data-viz
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': data/mortality-fr/morts_2020-05-18.csv@88a87d5e9c1a4c382c1a63a5a998d9dd188b226d
+  http://www.w3.org/ns/prov#atLocation:
+  - '@value': data/mortality-fr/morts_2020-05-18.csv
+- '@id': https://renkulab.io/blob/e137945ccf10e04bc4ef04e13bb890fc2ef23af2/data/mortality-fr/2021-05-21_deces_quotidiens_departement_csv.txt
+  '@type':
+  - http://purl.org/wf4ever/wfprov#Artifact
+  - http://www.w3.org/ns/prov#Entity
+  http://schema.org/isPartOf:
+  - '@id': https://renkulab.io/projects/cramakri/intro-data-viz
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': data/mortality-fr/2021-05-21_deces_quotidiens_departement_csv.txt@e137945ccf10e04bc4ef04e13bb890fc2ef23af2
+  http://www.w3.org/ns/prov#atLocation:
+  - '@value': data/mortality-fr/2021-05-21_deces_quotidiens_departement_csv.txt
+- '@id': https://renkulab.io/blob/fc5a6fe971bbbc7d022bc46e7724aebd0031c250/src/python/mortality_fr_data.py
+  '@type':
+  - http://purl.org/wf4ever/wfprov#Artifact
+  - http://www.w3.org/ns/prov#Entity
+  http://schema.org/isPartOf:
+  - '@id': https://renkulab.io/projects/cramakri/intro-data-viz
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': src/python/mortality_fr_data.py@fc5a6fe971bbbc7d022bc46e7724aebd0031c250
+  http://www.w3.org/ns/prov#atLocation:
+  - '@value': src/python/mortality_fr_data.py
+- '@id': https://renkulab.io/projects/cramakri/intro-data-viz
+  '@type':
+  - http://schema.org/Project
+  - http://www.w3.org/ns/prov#Location
+  http://schema.org/agent:
+  - '@value': 0.12.2
+  http://schema.org/creator:
+  - '@id': mailto:cramakri@ethz.ch
+  http://schema.org/dateCreated:
+  - '@value': '2021-05-19T16:52:53.248396+00:00'
+  http://schema.org/name:
+  - '@value': intro-data-viz
+  http://schema.org/schemaVersion:
+  - '@value': '8'
+  https://swissdatasciencecenter.github.io/renku-ontology#automatedTemplateUpdate:
+  - '@value': false
+  https://swissdatasciencecenter.github.io/renku-ontology#immutableTemplateFiles: []
+  https://swissdatasciencecenter.github.io/renku-ontology#templateId:
+  - '@value': python-minimal
+  https://swissdatasciencecenter.github.io/renku-ontology#templateMetadata:
+  - '@value': '{"description": "A very b, very brief introduction to data visualization.",
+      "__template_source__": "renku", "__template_ref__": "master", "__template_id__":
+      "python-minimal", "__namespace__": "", "__sanitized_project_name__": "", "__repository__":
+      "", "__project_slug__": "", "name": "intro-data-viz"}'
+  https://swissdatasciencecenter.github.io/renku-ontology#templateReference:
+  - '@value': master
+  https://swissdatasciencecenter.github.io/renku-ontology#templateSource:
+  - '@value': renku
+  https://swissdatasciencecenter.github.io/renku-ontology#templateVersion:
+  - '@value': 0.15.0
+- '@id': https://renkulab.io/runs/c21067b9-be89-4d30-a09c-612bef9be10a
+  '@type':
+  - http://www.w3.org/ns/prov#Entity
+  - http://www.w3.org/ns/prov#Plan
+  - https://swissdatasciencecenter.github.io/renku-ontology#Run
+  http://schema.org/isPartOf:
+  - '@id': https://renkulab.io/projects/cramakri/intro-data-viz
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': .renku/workflow/7a2cbce46bd347c1aabb594783949fd5_python.yaml@207f65747d840802e4be7b6a301a7f889becaaa1
+  http://www.w3.org/ns/prov#atLocation:
+  - '@value': .renku/workflow/7a2cbce46bd347c1aabb594783949fd5_python.yaml
+  https://swissdatasciencecenter.github.io/renku-ontology#command:
+  - '@value': python
+  https://swissdatasciencecenter.github.io/renku-ontology#hasArguments: []
+  https://swissdatasciencecenter.github.io/renku-ontology#hasInputs:
+  - '@id': https://renkulab.io/runs/c21067b9-be89-4d30-a09c-612bef9be10a/inputs/1
+  - '@id': https://renkulab.io/runs/c21067b9-be89-4d30-a09c-612bef9be10a/inputs/2
+  - '@id': https://renkulab.io/runs/c21067b9-be89-4d30-a09c-612bef9be10a/inputs/3
+  https://swissdatasciencecenter.github.io/renku-ontology#hasOutputs:
+  - '@id': https://renkulab.io/runs/c21067b9-be89-4d30-a09c-612bef9be10a/outputs/d266b052f97d4cd7aa7d8f38b9f48901
+  https://swissdatasciencecenter.github.io/renku-ontology#hasRunParameters: []
+  https://swissdatasciencecenter.github.io/renku-ontology#hasSubprocess: []
+  https://swissdatasciencecenter.github.io/renku-ontology#successCodes: []
+- '@id': https://renkulab.io/runs/c21067b9-be89-4d30-a09c-612bef9be10a/inputs/1
+  '@type':
+  - https://swissdatasciencecenter.github.io/renku-ontology#CommandInput
+  - https://swissdatasciencecenter.github.io/renku-ontology#CommandParameter
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': Command Input "src/python/mortality_fr_data.py"
+  https://swissdatasciencecenter.github.io/renku-ontology#consumes:
+  - '@id': https://renkulab.io/blob/fc5a6fe971bbbc7d022bc46e7724aebd0031c250/src/python/mortality_fr_data.py
+  https://swissdatasciencecenter.github.io/renku-ontology#position:
+  - '@value': 1
+- '@id': https://renkulab.io/runs/c21067b9-be89-4d30-a09c-612bef9be10a/inputs/2
+  '@type':
+  - https://swissdatasciencecenter.github.io/renku-ontology#CommandInput
+  - https://swissdatasciencecenter.github.io/renku-ontology#CommandParameter
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': Command Input "data/mortality-fr/morts_2020-05-18.csv"
+  https://swissdatasciencecenter.github.io/renku-ontology#consumes:
+  - '@id': https://renkulab.io/blob/88a87d5e9c1a4c382c1a63a5a998d9dd188b226d/data/mortality-fr/morts_2020-05-18.csv
+  https://swissdatasciencecenter.github.io/renku-ontology#position:
+  - '@value': 2
+- '@id': https://renkulab.io/runs/c21067b9-be89-4d30-a09c-612bef9be10a/inputs/3
+  '@type':
+  - https://swissdatasciencecenter.github.io/renku-ontology#CommandInput
+  - https://swissdatasciencecenter.github.io/renku-ontology#CommandParameter
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': Command Input "data/mortality-fr/2021-05-21_deces_quotidiens_departement_csv.txt"
+  https://swissdatasciencecenter.github.io/renku-ontology#consumes:
+  - '@id': https://renkulab.io/blob/e137945ccf10e04bc4ef04e13bb890fc2ef23af2/data/mortality-fr/2021-05-21_deces_quotidiens_departement_csv.txt
+  https://swissdatasciencecenter.github.io/renku-ontology#position:
+  - '@value': 3
+- '@id': https://renkulab.io/runs/c21067b9-be89-4d30-a09c-612bef9be10a/outputs/d266b052f97d4cd7aa7d8f38b9f48901
+  '@type':
+  - https://swissdatasciencecenter.github.io/renku-ontology#CommandOutput
+  - https://swissdatasciencecenter.github.io/renku-ontology#CommandParameter
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': Command Output "data/aux/mortality-fr.csv"
+  https://swissdatasciencecenter.github.io/renku-ontology#createFolder:
+  - '@value': true
+  https://swissdatasciencecenter.github.io/renku-ontology#produces:
+  - '@id': https://renkulab.io/blob/207f65747d840802e4be7b6a301a7f889becaaa1/data/aux/mortality-fr.csv
+- '@id': mailto:cramakri@ethz.ch
+  '@type':
+  - http://schema.org/Person
+  - http://www.w3.org/ns/prov#Person
+  http://schema.org/email:
+  - '@value': cramakri@ethz.ch
+  http://schema.org/name:
+  - '@value': Chandrasekhar Ramakrishnan
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': Chandrasekhar Ramakrishnan
