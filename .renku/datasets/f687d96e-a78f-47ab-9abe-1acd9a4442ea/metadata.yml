@@ -1,4 +1,30 @@
-- '@id': https://renkulab.io/datasets/f687d96e-a78f-47ab-9abe-1acd9a4442ea
+- '@id': https://localhost/urls/%2F%2Frenkulab.io%2Fdatasets%2Ff687d96e-a78f-47ab-9abe-1acd9a4442ea
+  '@type':
+  - http://schema.org/URL
+  http://schema.org/url:
+  - '@id': https://renkulab.io/datasets/f687d96e-a78f-47ab-9abe-1acd9a4442ea
+- '@id': https://renkulab.io/blob/b74a653108b88f5687e2c8c3025f34dcfb610763/data/mortality-fr/morts_2020-05-18.csv
+  '@type':
+  - http://purl.org/wf4ever/wfprov#Artifact
+  - http://schema.org/DigitalDocument
+  - http://www.w3.org/ns/prov#Entity
+  http://schema.org/dateCreated:
+  - '@value': '2021-05-23T09:39:24.233834+00:00'
+  http://schema.org/isPartOf:
+  - '@id': https://renkulab.io/projects/cramakri/intro-data-viz
+  http://schema.org/name:
+  - '@value': morts_2020-05-18.csv
+  http://schema.org/url:
+  - '@value': https://renkulab.io/projects/cramakri/intro-data-viz/files/blob/data/mortality-fr/morts_2020-05-18.csv
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': data/mortality-fr/morts_2020-05-18.csv@b74a653108b88f5687e2c8c3025f34dcfb610763
+  http://www.w3.org/ns/prov#atLocation:
+  - '@value': data/mortality-fr/morts_2020-05-18.csv
+  https://swissdatasciencecenter.github.io/renku-ontology#external:
+  - '@value': false
+  https://swissdatasciencecenter.github.io/renku-ontology#source:
+  - '@value': data/mortality-fr/morts_2020-05-18.csv
+- '@id': https://renkulab.io/datasets/44f3c4f1-c487-4506-bb51-a9387ede4383
   '@type':
   - http://purl.org/wf4ever/wfprov#Artifact
   - http://schema.org/Dataset
@@ -8,10 +34,11 @@
   http://schema.org/creator:
   - '@id': mailto:cramakri@ethz.ch
   http://schema.org/dateCreated:
-  - '@value': '2021-05-23T08:12:54.434482+00:00'
-  http://schema.org/hasPart: []
+  - '@value': '2021-05-23T09:39:24.250918+00:00'
+  http://schema.org/hasPart:
+  - '@id': https://renkulab.io/blob/b74a653108b88f5687e2c8c3025f34dcfb610763/data/mortality-fr/morts_2020-05-18.csv
   http://schema.org/identifier:
-  - '@value': f687d96e-a78f-47ab-9abe-1acd9a4442ea
+  - '@value': 44f3c4f1-c487-4506-bb51-a9387ede4383
   http://schema.org/isPartOf:
   - '@id': https://renkulab.io/projects/cramakri/intro-data-viz
   http://schema.org/keywords: []
@@ -19,11 +46,13 @@
   - '@value': mortality-fr
   http://schema.org/subjectOf: []
   http://schema.org/url:
-  - '@value': https://renkulab.io/datasets/f687d96e-a78f-47ab-9abe-1acd9a4442ea
+  - '@value': https://renkulab.io/datasets/44f3c4f1-c487-4506-bb51-a9387ede4383
   http://www.w3.org/2000/01/rdf-schema#label:
-  - '@value': f687d96e-a78f-47ab-9abe-1acd9a4442ea
+  - '@value': 44f3c4f1-c487-4506-bb51-a9387ede4383
   http://www.w3.org/ns/prov#atLocation:
   - '@value': .renku/datasets/f687d96e-a78f-47ab-9abe-1acd9a4442ea
+  http://www.w3.org/ns/prov#wasDerivedFrom:
+  - '@id': https://localhost/urls/%2F%2Frenkulab.io%2Fdatasets%2Ff687d96e-a78f-47ab-9abe-1acd9a4442ea
 - '@id': https://renkulab.io/projects/cramakri/intro-data-viz
   '@type':
   - http://schema.org/Project
