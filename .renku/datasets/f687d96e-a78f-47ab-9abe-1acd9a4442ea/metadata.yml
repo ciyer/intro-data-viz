@@ -1,8 +1,29 @@
-- '@id': https://localhost/urls/%2F%2Frenkulab.io%2Fdatasets%2Ff687d96e-a78f-47ab-9abe-1acd9a4442ea
+- '@id': https://localhost/urls/%2F%2Frenkulab.io%2Fdatasets%2F44f3c4f1-c487-4506-bb51-a9387ede4383
   '@type':
   - http://schema.org/URL
   http://schema.org/url:
-  - '@id': https://renkulab.io/datasets/f687d96e-a78f-47ab-9abe-1acd9a4442ea
+  - '@id': https://renkulab.io/datasets/44f3c4f1-c487-4506-bb51-a9387ede4383
+- '@id': https://renkulab.io/blob/251e3107ebb8f1fb7ffe6c04f2d7adcd09d9baea/data/mortality-fr/2021-05-21_deces_quotidiens_departement_csv.txt
+  '@type':
+  - http://purl.org/wf4ever/wfprov#Artifact
+  - http://schema.org/DigitalDocument
+  - http://www.w3.org/ns/prov#Entity
+  http://schema.org/dateCreated:
+  - '@value': '2021-05-23T09:39:40.290253+00:00'
+  http://schema.org/isPartOf:
+  - '@id': https://renkulab.io/projects/cramakri/intro-data-viz
+  http://schema.org/name:
+  - '@value': 2021-05-21_deces_quotidiens_departement_csv.txt
+  http://schema.org/url:
+  - '@value': https://renkulab.io/projects/cramakri/intro-data-viz/files/blob/data/mortality-fr/2021-05-21_deces_quotidiens_departement_csv.txt
+  http://www.w3.org/2000/01/rdf-schema#label:
+  - '@value': data/mortality-fr/2021-05-21_deces_quotidiens_departement_csv.txt@251e3107ebb8f1fb7ffe6c04f2d7adcd09d9baea
+  http://www.w3.org/ns/prov#atLocation:
+  - '@value': data/mortality-fr/2021-05-21_deces_quotidiens_departement_csv.txt
+  https://swissdatasciencecenter.github.io/renku-ontology#external:
+  - '@value': false
+  https://swissdatasciencecenter.github.io/renku-ontology#source:
+  - '@value': data/mortality-fr/2021-05-21_deces_quotidiens_departement_csv.txt
 - '@id': https://renkulab.io/blob/b74a653108b88f5687e2c8c3025f34dcfb610763/data/mortality-fr/morts_2020-05-18.csv
   '@type':
   - http://purl.org/wf4ever/wfprov#Artifact
@@ -24,7 +45,7 @@
   - '@value': false
   https://swissdatasciencecenter.github.io/renku-ontology#source:
   - '@value': data/mortality-fr/morts_2020-05-18.csv
-- '@id': https://renkulab.io/datasets/44f3c4f1-c487-4506-bb51-a9387ede4383
+- '@id': https://renkulab.io/datasets/87889a7a-fd67-4a79-b7d0-c5db898c0035
   '@type':
   - http://purl.org/wf4ever/wfprov#Artifact
   - http://schema.org/Dataset
@@ -34,11 +55,12 @@
   http://schema.org/creator:
   - '@id': mailto:cramakri@ethz.ch
   http://schema.org/dateCreated:
-  - '@value': '2021-05-23T09:39:24.250918+00:00'
+  - '@value': '2021-05-23T09:39:40.306754+00:00'
   http://schema.org/hasPart:
   - '@id': https://renkulab.io/blob/b74a653108b88f5687e2c8c3025f34dcfb610763/data/mortality-fr/morts_2020-05-18.csv
+  - '@id': https://renkulab.io/blob/251e3107ebb8f1fb7ffe6c04f2d7adcd09d9baea/data/mortality-fr/2021-05-21_deces_quotidiens_departement_csv.txt
   http://schema.org/identifier:
-  - '@value': 44f3c4f1-c487-4506-bb51-a9387ede4383
+  - '@value': 87889a7a-fd67-4a79-b7d0-c5db898c0035
   http://schema.org/isPartOf:
   - '@id': https://renkulab.io/projects/cramakri/intro-data-viz
   http://schema.org/keywords: []
@@ -46,13 +68,13 @@
   - '@value': mortality-fr
   http://schema.org/subjectOf: []
   http://schema.org/url:
-  - '@value': https://renkulab.io/datasets/44f3c4f1-c487-4506-bb51-a9387ede4383
+  - '@value': https://renkulab.io/datasets/87889a7a-fd67-4a79-b7d0-c5db898c0035
   http://www.w3.org/2000/01/rdf-schema#label:
-  - '@value': 44f3c4f1-c487-4506-bb51-a9387ede4383
+  - '@value': 87889a7a-fd67-4a79-b7d0-c5db898c0035
   http://www.w3.org/ns/prov#atLocation:
   - '@value': .renku/datasets/f687d96e-a78f-47ab-9abe-1acd9a4442ea
   http://www.w3.org/ns/prov#wasDerivedFrom:
-  - '@id': https://localhost/urls/%2F%2Frenkulab.io%2Fdatasets%2Ff687d96e-a78f-47ab-9abe-1acd9a4442ea
+  - '@id': https://localhost/urls/%2F%2Frenkulab.io%2Fdatasets%2F44f3c4f1-c487-4506-bb51-a9387ede4383
 - '@id': https://renkulab.io/projects/cramakri/intro-data-viz
   '@type':
   - http://schema.org/Project
