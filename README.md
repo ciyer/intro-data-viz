@@ -7,4 +7,4 @@ A very, very brief introduction to data visualization
 | [Part I](part1.ipynb)     | Mapping data, working with color, using transformations   |
 | [Part II](part2.ipynb)    | Storytelling with data                                    |
 
-If you are on GitHub, you may want to view this project on [RenkuLab](https://renkulab.io/projects/cramakri/intro-data-viz), where you can start a session to step through the notebooks.
+If you want to run the code in the notebooks, you can start an environment on [RenkuLab](https://renkulab.io/projects/cramakri/intro-data-viz/environments/new). Just accept the defaults and click "Start Environment". Once it is ready, you will have a JupyterLab environment where you can run the cells of the notebooks.
