@@ -1,5 +1,5 @@
 matplotlib==3.2.2
-numpy==1.19.4
+numpy==1.22.0
 rise==5.7.1
 scipy==1.5.3
 seaborn==0.11.1
